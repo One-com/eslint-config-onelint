@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-onelint",
+  "version": "0.0.0",
+  "description": "eslint configuration for one.com code style",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/One-com/eslint-config-onelint.git"
+  },
+  "keywords": [
+    "onelint",
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Gustav Nikolaj Olsen <gno@one.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/One-com/eslint-config-onelint/issues"
+  },
+  "homepage": "https://github.com/One-com/eslint-config-onelint#readme",
+  "devDependencies": {
+    "eslint": "1.10.3",
+    "mocha": "2.3.4",
+    "unexpected": "10.4.0"
+  }
+}
