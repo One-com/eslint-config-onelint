@@ -9,6 +9,7 @@
         "blockBindings": true
     },
     "rules": {
+        "block-scoped-var": [2],
         "eqeqeq": [2],
         "indent": [2, 4],
         "new-cap": [2, {"capIsNew": false}],
