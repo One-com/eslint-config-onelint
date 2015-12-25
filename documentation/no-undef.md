@@ -1,7 +1,7 @@
 All non-global variables are required to be declared before they are used.
 
 ```js
-function foo () {}
+function foo() {}
 foo();
 ```
 

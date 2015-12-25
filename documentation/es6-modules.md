@@ -3,7 +3,7 @@ The linter will not complain about es6 module syntax.
 Not when exporting stuff:
 
 ```js
-export default function foo () {
+export default function foo() {
     return 'foobar';
 };
 ```

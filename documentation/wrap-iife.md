@@ -6,7 +6,7 @@ parenthesis.
 ```
 
 ```js
-(function(){}());
+(function (){}());
 ```
 ```output
 Line 9, column 2: Wrap only the function expression in parens.
