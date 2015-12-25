@@ -2,7 +2,8 @@
     "env": {
       "browser": true,
       "node": true,
-      "mocha": true
+      "mocha": true,
+      "amd": true
     },
     "ecmaFeatures": {
         "modules": true,
@@ -28,5 +29,22 @@
         "quotes": [2, "single", "avoid-escape"],
         "semi": [2, "always"],
         "wrap-iife": [2, "inside"]
+    },
+    "globals": {
+        "one": true,
+        "Ext": true,
+        "LOCALEID": true,
+        "SUPPORTEDLOCALEIDS": true,
+        "DEFAULTLOCALEID": true,
+        "LOCALECOOKIENAME": true,
+
+        "INCLUDE": false,
+        "GETSTATICURL": false,
+        "GETTEXT": false,
+        "TR": false,
+        "TRPAT": false,
+        "TRHTML": false,
+
+        "defineTest": false
     }
 }
