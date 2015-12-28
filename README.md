@@ -51,3 +51,11 @@ it by adding new rules, overwriting rules or defining new globals in the
 
 See [Configuring ESLint](http://eslint.org/docs/user-guide/configuring.html) in
 the eslint docs.
+
+## Editor Plugins
+
+### Atom
+
+The Atom editor plugin is called linter-eslint and is built on the AtomLinter
+framework. It is available directly in your editor, or in the
+[package archives](https://atom.io/packages/linter-eslint) on atom.io.
