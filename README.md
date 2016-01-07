@@ -59,3 +59,17 @@ the eslint docs.
 The Atom editor plugin is called linter-eslint and is built on the AtomLinter
 framework. It is available directly in your editor, or in the
 [package archives](https://atom.io/packages/linter-eslint) on atom.io.
+
+### Vim
+
+Eslint is supported out of the box in [Syntastic](https://github.com/scrooloose/syntastic).
+Add this in your .vimrc to let Syntastic pick the right configuration for your project.
+```
+function SetSyntasticEsLint()
+    let g:syntastic_javascript_checkers = ['eslint']
+    let g:syntastic_javascript_eslint_exec = '/{{root of your project}}/node_modules/.bin/eslint'
+endfunction
+
+au BufRead,BufNewFile /home/dpi/Documents/professional-services/* call SetSyntasticEsLint()
+```
+
