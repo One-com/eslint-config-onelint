@@ -13,7 +13,7 @@
         "block-scoped-var": [2],
         "comma-style": [2, "last"],
         "eqeqeq": [2],
-        "indent": [2, 4],
+        "indent": [2, 4, {"SwitchCase": 1}],
         "new-cap": [2, {"capIsNew": false}],
         "no-caller": [2],
         "no-cond-assign": [2, "except-parens"],
