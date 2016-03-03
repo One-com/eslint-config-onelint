@@ -17,3 +17,44 @@ if (typeof foo === 'string') {
 ```output
 Line 13, column 3: Expected indentation of 4 space characters but found 2.
 ```
+
+```js
+var foo = 'foo';
+var num = 0;
+switch (foo) {
+    case 'foo':
+        num++;
+        break;
+    case 'bar':
+        num--;
+        break;
+    default:
+        num = num*2;
+}
+```
+
+```js
+var foo = 'foo';
+var num = 0;
+switch (foo) {
+case 'foo':
+    num++;
+    break;
+case 'bar':
+    num--;
+    break;
+default:
+    num = num*2;
+}
+```
+
+```output
+Line 40, column 1: Expected indentation of 4 space characters but found 0.
+Line 41, column 5: Expected indentation of 8 space characters but found 4.
+Line 42, column 5: Expected indentation of 8 space characters but found 4.
+Line 43, column 1: Expected indentation of 4 space characters but found 0.
+Line 44, column 5: Expected indentation of 8 space characters but found 4.
+Line 45, column 5: Expected indentation of 8 space characters but found 4.
+Line 46, column 1: Expected indentation of 4 space characters but found 0.
+Line 47, column 5: Expected indentation of 8 space characters but found 4.
+```
