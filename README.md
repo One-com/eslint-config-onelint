@@ -40,10 +40,10 @@ to make it available as `npm run lint`.
 
 ## Configuration
 
-Obviously, the goal is to derive as little as possible from the presets given in
-this configuration. But sometimes your projects may have global variables that
-are specific to that particular project, or maybe large parts of legacy code
-that you don't want to rewrite.
+Obviously, the goal is to deviate as little as possible from the presets given
+in this configuration. But sometimes your projects may have global variables
+that are specific to that particular project, or maybe large parts of legacy
+code that you don't want to rewrite.
 
 Because onelint is shipping as a sharable eslint configuration, you can extend
 it by adding new rules, overwriting rules or defining new globals in the
@@ -72,4 +72,3 @@ endfunction
 
 au BufRead,BufNewFile /home/dpi/Documents/professional-services/* call SetSyntasticEsLint()
 ```
-
