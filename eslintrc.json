@@ -29,8 +29,9 @@
         "no-unused-vars": [2],
         "quotes": [2, "single", "avoid-escape"],
         "semi": [2, "always"],
-        "space-before-function-paren": [2, {"anonymous": "always", "named": "never"} ],
         "space-after-keywords": [2],
+        "space-before-function-paren": [2, {"anonymous": "always", "named": "never"} ],
+        "space-before-blocks": [2, { "functions": "always" } ],
         "wrap-iife": [2, "inside"]
     },
     "globals": {
