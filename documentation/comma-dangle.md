@@ -11,8 +11,8 @@ Line 6, column 15: Unexpected trailing comma.
 ```
 
 ```js
-console.log([1,2,]);
+console.log([1, 2, ]);
 ```
 ```output
-Line 14, column 17: Unexpected trailing comma.
+Line 14, column 18: Unexpected trailing comma.
 ```

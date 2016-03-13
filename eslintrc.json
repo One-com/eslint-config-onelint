@@ -14,6 +14,7 @@
         "brace-style": [2, "1tbs", { "allowSingleLine": true }],
         "camelcase": [2],
         "comma-dangle": [2, "never"],
+        "comma-spacing": [2],
         "comma-style": [2, "last"],
         "curly": [2, "all"],
         "dot-notation": [2, { "allowKeywords": false }],
