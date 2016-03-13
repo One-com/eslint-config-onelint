@@ -12,6 +12,7 @@
     "rules": {
         "block-scoped-var": [2],
         "brace-style": [2, "1tbs", { "allowSingleLine": true }],
+        "comma-dangle": [2, "never"],
         "comma-style": [2, "last"],
         "curly": [2, "all"],
         "eol-last": [2],
