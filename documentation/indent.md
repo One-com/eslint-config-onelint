@@ -58,3 +58,18 @@ Line 45, column 5: Expected indentation of 8 space characters but found 4.
 Line 46, column 1: Expected indentation of 4 space characters but found 0.
 Line 47, column 5: Expected indentation of 8 space characters but found 4.
 ```
+
+---
+
+Should complain about tab indentation. (Unfortunately, the error message is not
+entirely accurate)
+
+```js
+if (true) {
+    console.log('foo');
+	console.log('bar');
+}
+```
+```output
+Line 70, column 2: Expected indentation of 4 space characters but found 0.
+```
