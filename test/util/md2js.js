@@ -1,7 +1,7 @@
 var fs = require('fs');
 var path = require('path');
 
-var codeBlockContentRegExp = /```(js|javascript|output)\n([^`]*)\n```/gm;
+var codeBlockContentRegExp = /```(js|javascript|output):?(no-eol)?\n([^`]*)\n```/gm;
 
 function findCodeBlocks (fileContent) {
     var match;
@@ -10,13 +10,16 @@ function findCodeBlocks (fileContent) {
         var lineOffset = (fileContent.substr(0, match.index).match(/\n/g) || []).length;
         var result = {
             type: match[1],
-            body: match[2],
+            body: match[3],
             lineOffset: lineOffset + 1
         };
 
         if (result.type === 'output') {
             blocks[blocks.length - 1].output = result;
         } else {
+            if (!match[2]) {
+              result.body += '\n';
+            }
             blocks.push(result);
         }
     }
