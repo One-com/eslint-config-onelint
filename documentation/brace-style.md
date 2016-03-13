@@ -35,7 +35,6 @@ else
 ```output
 Line 26, column 1: Opening curly brace does not appear on the same line as controlling statement.
 Line 26, column 1: Opening curly brace does not appear on the same line as controlling statement.
-Line 30, column 5: Keyword "else" must not be followed by a newline.
 Line 31, column 1: Closing curly brace does not appear on the same line as the subsequent block.
 ```
 

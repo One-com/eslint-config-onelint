@@ -35,12 +35,12 @@ foo --;
 + '3';
 ```
 ```output
-Line 28, column 1: Unary word operator "typeof" must be followed by whitespace.
-Line 29, column 1: Unary word operator "void" must be followed by whitespace.
-Line 30, column 1: Unary word operator "new" must be followed by whitespace.
-Line 31, column 1: Unary word operator "delete" must be followed by whitespace.
-Line 32, column 1: Unexpected space after unary operator "++".
-Line 33, column 1: Unexpected space before unary operator "--".
-Line 34, column 1: Unexpected space after unary operator "-".
-Line 35, column 1: Unexpected space after unary operator "+".
+Line 28, column 1: Unary word operator 'typeof' must be followed by whitespace.
+Line 29, column 1: Unary word operator 'void' must be followed by whitespace.
+Line 30, column 1: Unary word operator 'new' must be followed by whitespace.
+Line 31, column 1: Unary word operator 'delete' must be followed by whitespace.
+Line 32, column 1: Unexpected space after unary operator '++'.
+Line 33, column 1: Unexpected space before unary operator '--'.
+Line 34, column 1: Unexpected space after unary operator '-'.
+Line 35, column 1: Unexpected space after unary operator '+'.
 ```

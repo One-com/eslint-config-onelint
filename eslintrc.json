@@ -1,13 +1,14 @@
 {
     "env": {
+      "es6": true,
       "browser": true,
       "node": true,
       "mocha": true,
       "amd": true
     },
-    "ecmaFeatures": {
-        "modules": true,
-        "blockBindings": true
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
     },
     "rules": {
         "block-scoped-var": [2],
@@ -22,6 +23,7 @@
         "eol-last": [2],
         "eqeqeq": [2],
         "indent": [2, 4, {"SwitchCase": 1}],
+        "keyword-spacing": [2],
         "new-cap": [2, {"capIsNew": false}],
         "no-caller": [2],
         "no-cond-assign": [2, "except-parens"],
@@ -37,7 +39,6 @@
         "no-unused-vars": [2, { "args": "none" }],
         "quotes": [2, "single", "avoid-escape"],
         "semi": [2, "always"],
-        "space-after-keywords": [2],
         "space-before-function-paren": [2, {"anonymous": "always", "named": "never"} ],
         "space-before-blocks": [2, { "functions": "always" } ],
         "space-in-parens": [2, "never"],

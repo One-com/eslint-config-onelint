@@ -20,7 +20,7 @@ var obj = {};
 obj['bar'] = 'foo';
 ```
 ```output
-Line 20, column 1: ["bar"] is better written in dot notation.
+Line 20, column 5: ["bar"] is better written in dot notation.
 ```
 
 ---

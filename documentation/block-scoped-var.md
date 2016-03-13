@@ -13,5 +13,5 @@ doSomething();
 ```
 
 ```output
-Line 9, column 17: "build" used outside of binding context.
+Line 9, column 17: 'build' used outside of binding context.
 ```

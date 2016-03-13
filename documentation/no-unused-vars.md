@@ -4,7 +4,7 @@ Any unused variables will trigger a warning.
 var foo = 'bar';
 ```
 ```output
-Line 4, column 5: "foo" is defined but never used
+Line 4, column 5: 'foo' is defined but never used
 ```
 
 But it should not complain about unused function parameters:

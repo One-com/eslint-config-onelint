@@ -9,5 +9,5 @@ console.log(a);
 ```
 
 ```output
-Line 7, column 5: "a" is already defined
+Line 7, column 5: 'a' is already defined
 ```

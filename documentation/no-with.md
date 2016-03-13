@@ -7,7 +7,7 @@ with (foo) {
 }
 ```
 ```output
-Line 5, column 2: Parsing error: Strict mode code may not include a with statement
+Line 5, column 1: Parsing error: 'with' in strict mode
 ```
 
 Unfortunately, this test case is failing nomatter what due to strict mode
