@@ -29,7 +29,7 @@ switch (foo) {
         num--;
         break;
     default:
-        num = num*2;
+        num = num * 2;
 }
 ```
 
@@ -44,7 +44,7 @@ case 'bar':
     num--;
     break;
 default:
-    num = num*2;
+    num = num * 2;
 }
 ```
 
