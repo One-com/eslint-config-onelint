@@ -16,6 +16,7 @@
         "comma-dangle": [2, "never"],
         "comma-style": [2, "last"],
         "curly": [2, "all"],
+        "dot-notation": [2, { "allowKeywords": false }],
         "eol-last": [2],
         "eqeqeq": [2],
         "indent": [2, 4, {"SwitchCase": 1}],
