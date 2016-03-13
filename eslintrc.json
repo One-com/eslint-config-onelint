@@ -34,7 +34,7 @@
         "no-script-url": [2],
         "no-trailing-spaces": [2],
         "no-undef": [2],
-        "no-unused-vars": [2],
+        "no-unused-vars": [2, { "args": "none" }],
         "quotes": [2, "single", "avoid-escape"],
         "semi": [2, "always"],
         "space-after-keywords": [2],
