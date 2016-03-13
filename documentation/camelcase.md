@@ -25,3 +25,12 @@ Should not complain about uppercase identifiers:
 /* eslint no-unused-vars: 0 */
 var FOOBAR = 'foo bar';
 ```
+
+Do not check object properties for camel casing, as they might be required when
+interfacing with external systems (fx postgres from node or an third party api).
+```js
+/* eslint no-unused-vars: 0 */
+var obj = {
+    snake_case_prop: 'foo bar'
+};
+```
