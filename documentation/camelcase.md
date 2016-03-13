@@ -18,3 +18,10 @@ Should not complain about underscores in the beginning of the identifier name:
 /* eslint no-unused-vars: 0 */
 var _fooBar = 'foo bar';
 ```
+
+Should not complain about uppercase identifiers:
+
+```js
+/* eslint no-unused-vars: 0 */
+var FOOBAR = 'foo bar';
+```
