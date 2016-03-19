@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-onelint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint configuration for one.com code style",
   "main": "index.js",
   "scripts": {
