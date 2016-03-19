@@ -8,6 +8,11 @@ parenthesis.
 ```js
 (function () {}());
 ```
+
+```js
+var foo = function () {}();
+console.log('foo', foo);
+```
 ```output
-Line 9, column 2: Wrap only the function expression in parens.
+Line 13, column 11: Wrap an immediate function invocation in parentheses.
 ```
