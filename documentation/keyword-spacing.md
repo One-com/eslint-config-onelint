@@ -81,3 +81,27 @@ try {
 ```output
 Line 77, column 3: Expected space(s) after "finally".
 ```
+
+```js
+var str = 'foo';
+switch (str) {
+case'foo':
+    console.log('foo!');
+    break;
+default:
+    console.log('bar!');
+}
+```
+```output
+Line 88, column 1: Expected space(s) after "case".
+```
+
+```js
+function fooArray(foo) {
+    return[foo];
+}
+fooArray('foo');
+```
+```output
+Line 101, column 5: Expected space(s) after "return".
+```
