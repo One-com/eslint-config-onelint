@@ -54,6 +54,11 @@ the eslint docs.
 
 ## Editor Plugins
 
+Setting up eslint integration in your editor is all that is needed. You can find
+a guide most editor in the
+[integrations](http://eslint.org/docs/user-guide/integrations) section of the
+eslint user guide. Recommended settings for common editors can be found below.
+
 ### Atom
 
 The Atom editor plugin is called linter-eslint and is built on the AtomLinter
