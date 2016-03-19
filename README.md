@@ -72,3 +72,13 @@ endfunction
 
 au BufRead,BufNewFile /home/dpi/Documents/professional-services/* call SetSyntasticEsLint()
 ```
+
+### Sublime Text 3
+
+- Install the [Package Control](https://packagecontrol.io/installation) package
+  manager for sublime text, if it's not already installed.
+- Install SublimeLinter through Package Control (Ctrl-P: Install Packages)
+- Install [SublimeLinter-contrib-eslint](https://github.com/roadhump/SublimeLinter-eslint)
+  through Package Control
+
+(Probably works for Sublime Text 2 as well...)
