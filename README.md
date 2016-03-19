@@ -38,6 +38,32 @@ $ ./node_modules/.bin/eslint .
 For convenience, you can add it as a script in package.json's scripts section,
 to make it available as `npm run lint`.
 
+### Turn off ES6 parser module
+
+Code like the following will break in es6 parser mode, but work just fine in es5:
+
+```js
+loadingQueue.await(...)
+```
+
+It can be handled by setting the following options in `.eslintrc.js`:
+
+```js
+module.exports = {
+    extends: [
+        'onelint'
+    ],
+    env: {
+        es6: false
+    },
+    parserOptions: null
+};
+```
+
+It's not always that it causes problems, so I'll not make the default es5 now.
+If it turns out to be a major problem, we could release an es5 version of this
+package too, with the above configuration extended on top.
+
 ## Configuration
 
 Obviously, the goal is to deviate as little as possible from the presets given
