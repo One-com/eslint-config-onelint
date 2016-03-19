@@ -64,6 +64,14 @@ It's not always that it causes problems, so I'll not make the default es5 now.
 If it turns out to be a major problem, we could release an es5 version of this
 package too, with the above configuration extended on top.
 
+The above fix is also necessary when you're code will not work in mode.
+ES6 modules are enabled in the parsing options, which implicitly enables strict
+mode. That will cause, among other things, cause octals to be considered invalid:
+
+```js
+var someOctalValue = 0200;
+```
+
 ## Configuration
 
 Obviously, the goal is to deviate as little as possible from the presets given
