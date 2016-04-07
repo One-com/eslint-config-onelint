@@ -3,6 +3,9 @@
 This sharable eslint config is derived from the style which the JavaScript
 developers at One.com use for internal as well as open source projects.
 
+If you write React code, consider including
+[eslint-config-onelint-react](https://github.com/One-com/eslint-config-onelint-react)
+
 ## Usage
 
 To start using the linter in a project start by installing eslint and this
