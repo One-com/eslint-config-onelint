@@ -3,7 +3,7 @@ var path = require('path');
 
 var codeBlockContentRegExp = /```(js|javascript|output):?(no-eol)?\n([^`]*)\n```/gm;
 
-function findCodeBlocks (fileContent) {
+function findCodeBlocks(fileContent) {
     var match;
     var blocks = [];
     while ((match = codeBlockContentRegExp.exec(fileContent)) !== null) {
@@ -18,7 +18,7 @@ function findCodeBlocks (fileContent) {
             blocks[blocks.length - 1].output = result;
         } else {
             if (!match[2]) {
-              result.body += '\n';
+                result.body += '\n';
             }
             blocks.push(result);
         }
@@ -26,7 +26,7 @@ function findCodeBlocks (fileContent) {
     return blocks;
 }
 
-function createTestCase (codeBlock, index) {
+function createTestCase(codeBlock, index) {
     var l = [];
     l.push("it('case " + (index + 1) +  "', function () {");
 
@@ -50,7 +50,7 @@ function createTestCase (codeBlock, index) {
     return l;
 }
 
-function lintText (text, cb) {
+function lintText(text, cb) {
     var eslint = require('eslint');
     var eslintConfig = require('../index.js');
     var result;
@@ -62,7 +62,7 @@ function lintText (text, cb) {
     return cb(null, result);
 }
 
-function md2js (content, fileName) {
+function md2js(content, fileName) {
     if (fileName) {
         fileName = path.relative(process.cwd(), fileName);
     } else {
