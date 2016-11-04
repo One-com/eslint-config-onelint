@@ -1,5 +1,7 @@
 # onelint eslint configuration
 
+[![Build Status](https://travis-ci.org/One-com/eslint-config-onelint.svg?branch=master)](https://travis-ci.org/One-com/eslint-config-onelint)
+
 This sharable eslint config is derived from the style which the JavaScript
 developers at One.com use for internal as well as open source projects.
 
