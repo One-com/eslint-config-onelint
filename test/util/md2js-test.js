@@ -61,5 +61,14 @@ describe('md2js', function () {
                 }
             ]);
         });
+        it.skip('should be able to find a codeblock with a template string', function () {
+            // TODO: Fix parsing of examples with template strings
+            return expect('template-string', 'to yield code blocks', [
+                {
+                    type: 'js',
+                    body: 'var foo = `bar`;'
+                }
+            ]);
+        });
     });
 });
