@@ -24,7 +24,7 @@
   "homepage": "https://github.com/One-com/eslint-config-onelint#readme",
   "devDependencies": {
     "eslint": "2.4.0",
-    "eslint-markdown-test": "1.0.0",
+    "eslint-markdown-test": "1.1.0",
     "mocha": "2.3.4"
   }
 }
