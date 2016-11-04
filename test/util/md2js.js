@@ -84,6 +84,10 @@ function md2js(content, fileName) {
     return codeLines.join('\n');
 }
 
-require.extensions['.md'] = function (module, fileName) {
-    module._compile(md2js(fs.readFileSync(fileName, 'utf-8'), fileName), fileName);
+module.exports = {
+    register: function () {
+        require.extensions['.md'] = function (module, fileName) {
+            module._compile(md2js(fs.readFileSync(fileName, 'utf-8'), fileName), fileName);
+        };
+    }
 };
