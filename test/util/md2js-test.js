@@ -7,4 +7,9 @@ describe('md2js', function () {
             register: expect.it('to be a function')
         });
     });
+    it('should export a parse function', function () {
+        return expect(md2js, 'to satisfy', {
+            parse: expect.it('to be a function')
+        });
+    });
 });

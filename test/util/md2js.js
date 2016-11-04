@@ -62,7 +62,7 @@ function lintText(text, cb) {
     return cb(null, result);
 }
 
-function md2js(content, fileName) {
+function parse(content, fileName) {
     if (fileName) {
         fileName = path.relative(process.cwd(), fileName);
     } else {
@@ -85,9 +85,10 @@ function md2js(content, fileName) {
 }
 
 module.exports = {
+    parse: parse,
     register: function () {
         require.extensions['.md'] = function (module, fileName) {
-            module._compile(md2js(fs.readFileSync(fileName, 'utf-8'), fileName), fileName);
+            module._compile(parse(fs.readFileSync(fileName, 'utf-8'), fileName), fileName);
         };
     }
 };
