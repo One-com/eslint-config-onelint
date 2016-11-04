@@ -85,6 +85,7 @@ function parse(content, fileName) {
 }
 
 module.exports = {
+    findCodeBlocks: findCodeBlocks,
     parse: parse,
     register: function () {
         require.extensions['.md'] = function (module, fileName) {

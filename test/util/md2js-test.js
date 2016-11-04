@@ -12,4 +12,9 @@ describe('md2js', function () {
             parse: expect.it('to be a function')
         });
     });
+    it('should export a findCodeBlocks function', function () {
+        return expect(md2js, 'to satisfy', {
+            findCodeBlocks: expect.it('to be a function')
+        });
+    });
 });
