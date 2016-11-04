@@ -1,4 +1,5 @@
 --recursive
 --reporter spec
---require test/util/md2js
+--require test/util/md2js-register
 documentation/*.md
+test/**/*-test.js
