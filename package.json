@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha"
+    "test": "mocha --require eslint-markdown-test 'documentation/*.md'"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/One-com/eslint-config-onelint#readme",
   "devDependencies": {
     "eslint": "2.4.0",
-    "mocha": "2.3.4",
-    "unexpected": "10.4.0"
+    "eslint-markdown-test": "1.0.0",
+    "mocha": "2.3.4"
   }
 }
