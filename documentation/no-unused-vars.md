@@ -7,6 +7,15 @@ var foo = 'bar';
 Line 4, column 5: 'foo' is assigned a value but never used.
 ```
 
+Any assigned but unused variables will also trigger a warning.
+
+```js
+var foo = 'foo';
+```
+```output
+Line 13, column 5: 'foo' is assigned a value but never used.
+```
+
 But it should not complain about unused function parameters:
 
 ```js
