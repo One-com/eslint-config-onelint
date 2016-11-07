@@ -28,3 +28,16 @@ handleCallback(function ignoreError(err) {
     if (err) {}
 });
 ```
+
+It will work with [passerror](https://www.npmjs.com/package/passerror):
+
+```js
+var passError = require('passerror');
+var fs = require('fs');
+
+function errHandler() {}
+
+fs.readFile('/foo.txt', passError(errHandler, function (data) {
+    console.log(data);
+}));
+```
