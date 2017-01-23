@@ -9,7 +9,7 @@ console.log('foobar');
 console.log('foobar');
 ```
 ```output
-Line 9, column 2: Newline required at end of file but not found.
+Line 9, column 23: Newline required at end of file but not found.
 ```
 
 ---
