@@ -3,7 +3,7 @@
 a + b;
 a       + b;
 a ? b : c;
-const a = {b:1};
+const a = {b: 1};
 var foo = bar;
 ```
 
@@ -13,7 +13,7 @@ a+b;
 a+ b;
 a +b;
 a?b:c;
-const a={b:1};
+const a={b: 1};
 var foo=bar;
 ```
 ```output
