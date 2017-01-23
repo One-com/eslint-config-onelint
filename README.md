@@ -8,6 +8,14 @@ developers at One.com use for internal as well as open source projects.
 If you write React code, consider including
 [eslint-config-onelint-react](https://github.com/One-com/eslint-config-onelint-react)
 
+## Supported Node.js versions
+
+As of eslint version 3 node versions prior to 4.0.0 are no longer supported.
+The [`v1`](https://github.com/One-com/eslint-config-onelint/tree/v1) branch
+of this package still supports eslint v2.
+
+Later branches require eslint 3.
+
 ## Usage
 
 To start using the linter in a project start by installing eslint and this
