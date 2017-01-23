@@ -19,7 +19,7 @@ else {
 }
 ```
 ```output
-Line 17, column 6: Closing curly brace does not appear on the same line as the subsequent block.
+Line 16, column 1: Closing curly brace does not appear on the same line as the subsequent block.
 ```
 
 ```js
@@ -33,9 +33,9 @@ else
 }
 ```
 ```output
-Line 26, column 1: Opening curly brace does not appear on the same line as controlling statement.
-Line 26, column 1: Opening curly brace does not appear on the same line as controlling statement.
-Line 31, column 1: Closing curly brace does not appear on the same line as the subsequent block.
+Line 27, column 1: Opening curly brace does not appear on the same line as controlling statement.
+Line 29, column 1: Closing curly brace does not appear on the same line as the subsequent block.
+Line 31, column 1: Opening curly brace does not appear on the same line as controlling statement.
 ```
 
 ## Allow single line blocks

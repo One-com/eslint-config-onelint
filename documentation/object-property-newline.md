@@ -29,5 +29,5 @@ var foo = {
 ```
 
 ```output
-Line 26, column 17: Object properties must go on a new line if they aren't all on the same line
+Line 26, column 17: Object properties must go on a new line if they aren't all on the same line.
 ```
