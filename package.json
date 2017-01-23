@@ -22,6 +22,9 @@
     "url": "https://github.com/One-com/eslint-config-onelint/issues"
   },
   "homepage": "https://github.com/One-com/eslint-config-onelint#readme",
+  "peerDependencies": {
+    "eslint": "^2.10.0 || ^3"
+  },
   "devDependencies": {
     "eslint": "2.13.1",
     "eslint-markdown-test": "1.1.0",
