@@ -38,6 +38,7 @@
         "no-unreachable": [2],
         "no-unused-vars": [2, { "args": "none" }],
         "no-with": [2],
+        "object-property-newline": [2, { "allowMultiplePropertiesPerLine": true }],
         "semi": [2, "always"],
         "space-before-function-paren": [2, {"anonymous": "always", "named": "never"} ],
         "space-before-blocks": [2, { "functions": "always" } ],
