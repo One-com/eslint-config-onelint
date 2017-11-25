@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/One-com/eslint-config-onelint#readme",
   "peerDependencies": {
-    "eslint": "^3"
+    "eslint": "^4"
   },
   "devDependencies": {
-    "eslint": "3.14.0",
+    "eslint": "^4.11.0",
     "eslint-markdown-test": "1.1.0",
     "mocha": "2.3.4"
   }

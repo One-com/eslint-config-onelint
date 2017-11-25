@@ -15,7 +15,7 @@ if (typeof foo === 'string') {
 ```
 
 ```output
-Line 13, column 3: Expected indentation of 4 spaces but found 2.
+Line 13, column 1: Expected indentation of 4 spaces but found 2.
 ```
 
 ```js
@@ -51,14 +51,14 @@ switch (foo) {
 ```
 
 ```output
-Line 42, column 5: Expected indentation of 0 spaces but found 4.
-Line 43, column 9: Expected indentation of 4 spaces but found 8.
-Line 44, column 9: Expected indentation of 4 spaces but found 8.
-Line 45, column 5: Expected indentation of 0 spaces but found 4.
-Line 46, column 9: Expected indentation of 4 spaces but found 8.
-Line 47, column 9: Expected indentation of 4 spaces but found 8.
-Line 48, column 5: Expected indentation of 0 spaces but found 4.
-Line 49, column 9: Expected indentation of 4 spaces but found 8.
+Line 42, column 1: Expected indentation of 0 spaces but found 4.
+Line 43, column 1: Expected indentation of 4 spaces but found 8.
+Line 44, column 1: Expected indentation of 4 spaces but found 8.
+Line 45, column 1: Expected indentation of 0 spaces but found 4.
+Line 46, column 1: Expected indentation of 4 spaces but found 8.
+Line 47, column 1: Expected indentation of 4 spaces but found 8.
+Line 48, column 1: Expected indentation of 0 spaces but found 4.
+Line 49, column 1: Expected indentation of 4 spaces but found 8.
 ```
 
 ---
@@ -73,5 +73,5 @@ if (true) {
 }
 ```
 ```output
-Line 72, column 2: Expected indentation of 4 spaces but found 1 tab.
+Line 72, column 1: Expected indentation of 4 spaces but found 1 tab.
 ```
