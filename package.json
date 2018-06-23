@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/One-com/eslint-config-onelint#readme",
   "peerDependencies": {
-    "eslint": "^4"
+    "eslint": "^4 || ^5"
   },
   "devDependencies": {
     "eslint": "^5.0.0",
